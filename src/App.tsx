@@ -20,7 +20,7 @@ function App() {
         </div>
       )}
       <input name="nome" ref={register({ required: true })} placeholder="nome"/>
-      {errors.nome && <p>Nome obrigatório</p>}
+      {errors.nome && <p>Digite seu nome</p>}
 
       <label>Masc</label>
       <input type="radio" ref={register} name="sexo" value="masculino" />
