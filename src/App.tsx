@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
     <form onSubmit={handleSubmit(onSubmit)}>
-      <label>Exterior?</label>
+      <label>learn react</label>
       <input name="exterior" type="checkbox" ref={register} />
       {exterior && (
         <div>
